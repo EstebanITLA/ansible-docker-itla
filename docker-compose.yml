@@ -1,0 +1,31 @@
+services:
+
+  servidor1:
+    build: .
+    container_name: ubuntu-server1
+    ports:
+      - "2221:22"
+
+  servidor2:
+    build: .
+    container_name: ubuntu-server2
+    ports:
+      - "2222:22"
+
+  servidor3:
+    build: .
+    container_name: ubuntu-server3
+    ports:
+      - "2223:22"
+
+  servidor4:
+    build: .
+    container_name: ubuntu-server4
+    ports:
+      - "2224:22"
+
+  servidor5:
+    build: .
+    container_name: ubuntu-server5
+    ports:
+      - "2225:22"
